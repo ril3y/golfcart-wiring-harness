@@ -20039,6 +20039,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 120.65 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46adf21e-6f7c-47fd-9314-c0fab783af2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1572 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "M1_UART_TX"
 		(shape input)
 		(at 58.42 128.27 0)
@@ -20565,7 +20587,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "THROTTLE_5V"
 		(shape input)
 		(at 147.32 140.97 0)
 		(fields_autoplaced yes)
@@ -20577,7 +20599,7 @@
 		)
 		(uuid "807fada0-dafc-4be2-8f58-8bcbfc64a2df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6033 140.97 0)
+			(at 162.5818 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21093,28 +21115,6 @@
 			)
 		)
 	)
-	(global_label "METER_M1"
-		(shape input)
-		(at 120.65 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfb7c0fd-4ba6-4af9-80f0-9cbf8cff1645")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0493 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BRAKE_12V"
 		(shape input)
 		(at 137.16 21.59 270)
@@ -21247,28 +21247,6 @@
 			)
 		)
 	)
-	(global_label "BRAKE_AN"
-		(shape input)
-		(at 120.65 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7645c5d-3cf4-4df7-b44f-f0ab85440af7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.2305 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ECO"
 		(shape input)
 		(at 30.48 165.1 180)
@@ -21282,28 +21260,6 @@
 		(uuid "c88916ef-2eb8-49e5-a3e2-2bb7bb0525f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.7453 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "METER_M2"
-		(shape input)
-		(at 120.65 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd8fd5d8-ceb1-4039-b0dd-ce190a68947e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0493 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21392,6 +21348,28 @@
 		(uuid "d0069bd0-ff9a-4691-8a22-e9562c727f41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.8793 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V"
+		(shape input)
+		(at 120.65 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2cc0bde-95b5-4098-a61b-8a6af8854d31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1572 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21577,6 +21555,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 120.65 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eba8e583-2c04-44d2-bc95-c0e19e567e66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1572 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ECO"
 		(shape input)
 		(at 29.21 115.57 180)
@@ -21687,7 +21687,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "TROTTLE_GND"
 		(shape input)
 		(at 147.32 138.43 0)
 		(fields_autoplaced yes)
@@ -21699,7 +21699,7 @@
 		)
 		(uuid "fcc060e1-5540-4029-9c06-bf7e9e6918d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.1757 138.43 0)
+			(at 162.8237 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
