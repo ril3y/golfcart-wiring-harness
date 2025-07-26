@@ -3866,6 +3866,10 @@
 		(uuid "25abc98c-6c7b-44fd-a50a-b6d623599034")
 	)
 	(no_connect
+		(at 35.56 167.64)
+		(uuid "46bb8a7d-eabd-4ae5-817c-51698265da7d")
+	)
+	(no_connect
 		(at 54.61 153.67)
 		(uuid "48bf1c41-1e83-480e-9f93-35ecb4c72fde")
 	)
@@ -3900,6 +3904,10 @@
 	(no_connect
 		(at 54.61 167.64)
 		(uuid "98373600-f59e-4113-8d7f-39c1ba3acd2f")
+	)
+	(no_connect
+		(at 34.29 118.11)
+		(uuid "bcc737c8-c958-4125-8d2f-695f92b98172")
 	)
 	(no_connect
 		(at 53.34 104.14)
@@ -4753,16 +4761,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 167.64) (xy 35.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649885ec-5096-45f0-9b79-79395e0ebdaf")
-	)
-	(wire
-		(pts
 			(xy 198.12 161.29) (xy 198.12 160.02)
 		)
 		(stroke
@@ -5473,6 +5471,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 152.4) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c8ad76-16b1-412e-a477-86a38d785ee4")
+	)
+	(wire
+		(pts
 			(xy 161.29 114.3) (xy 143.51 114.3)
 		)
 		(stroke
@@ -5500,16 +5508,6 @@
 			(type default)
 		)
 		(uuid "a651a118-843c-41e0-bd15-c346e64db197")
-	)
-	(wire
-		(pts
-			(xy 29.21 118.11) (xy 34.29 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7b7370f-9e1d-4edf-9fdc-d3d4b8f7d8f2")
 	)
 	(wire
 		(pts
@@ -19621,6 +19619,28 @@
 			)
 		)
 	)
+	(global_label "THROTTLE_5V"
+		(shape input)
+		(at 193.04 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22fd9d58-4801-4c23-b7d7-1a206657d3b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.7782 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CONTACTOR_POS"
 		(shape input)
 		(at 69.85 25.4 0)
@@ -19731,6 +19751,28 @@
 			)
 		)
 	)
+	(global_label "TROTTLE_GND"
+		(shape input)
+		(at 193.04 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c3c7d38-8a1f-4ce5-a80e-cfcec2c72647")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.5363 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PARKING_BREAK"
 		(shape input)
 		(at 240.03 39.37 90)
@@ -19815,28 +19857,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRAKE_AN"
-		(shape input)
-		(at 30.48 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "34f507cc-0048-4506-9e58-056484c38580")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.0605 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20035,28 +20055,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape input)
-		(at 120.65 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46adf21e-6f7c-47fd-9314-c0fab783af2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.1572 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20313,6 +20311,28 @@
 			)
 		)
 	)
+	(global_label "12V"
+		(shape input)
+		(at 120.65 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "684d4d76-b3b3-4c38-893f-e25b6dc70d16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1572 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FWD"
 		(shape input)
 		(at 120.65 111.76 180)
@@ -20502,38 +20522,6 @@
 		(uuid "7c22ea8a-1e8f-4d70-bfc1-c2f3dd44f549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.0148 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ECO"
-		(shape input)
-		(at 120.65 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7dab915a-b0b1-403b-908d-cbb27c04809c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.9153 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Description" "When you enable three‑speed operation (setting “Three Speed” = 2 in the configuration), pulling ECO up to 12 V forces the controller into its low‑speed setting (as defined by the “LowSpeed Forw Speed” and “LowSpeed Rev Speed” parameters)."
-			(at 120.65 133.0008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20961,6 +20949,38 @@
 			)
 		)
 	)
+	(global_label "ECO"
+		(shape input)
+		(at 120.65 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa6dd477-7a33-4273-b52c-f766e7978704")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.9153 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Description" "When you enable three‑speed operation (setting “Three Speed” = 2 in the configuration), pulling ECO up to 12 V forces the controller into its low‑speed setting (as defined by the “LowSpeed Forw Speed” and “LowSpeed Rev Speed” parameters)."
+			(at 120.65 135.5408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "48V_PWR"
 		(shape input)
 		(at 55.88 101.6 0)
@@ -21005,6 +21025,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 200.66 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af4d99f4-aef6-42c0-87a2-9f6b1fa40cbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.5157 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RBLINK_12V_UC"
 		(shape input)
 		(at 217.17 55.88 180)
@@ -21018,28 +21060,6 @@
 		(uuid "b007e925-6cdc-40e5-aada-f1f4ba17c4e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.3681 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BRAKE_AN"
-		(shape input)
-		(at 29.21 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1fcf55a-895e-4649-987c-0474aef4a684")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.7905 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21639,28 +21659,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 193.04 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f5096912-6d41-4f2a-a825-462eef0b0fad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.7567 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
