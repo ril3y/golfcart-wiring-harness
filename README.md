@@ -2,6 +2,8 @@
 
 A KiCad project for designing a golf cart wiring harness with CAN bus communication and microcontroller integration.
 
+![PCB Preview](preview.png)
+
 ## Project Overview
 
 This project contains the complete KiCad design files for a golf cart wiring harness system that includes:
@@ -33,8 +35,9 @@ wire_harness/
 
 ## Production
 
-- **PCB Order Date**: June 29, 2025
-- **Tag**: `production_order_062925`
+- **PCB Order Number**: W2025101705278993
+- **PCB Order Date**: October 17, 2025
+- **Tag**: `production-W2025101705278993`
 
 ## Generated Files
 
