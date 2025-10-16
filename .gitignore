@@ -60,3 +60,6 @@ fp-info-cache
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Claude Code settings
+.claude/
